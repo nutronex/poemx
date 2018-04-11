@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_home_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_favlist"
+            android:icon="@drawable/ic_favorite_heart_red_small"
+            android:title="Favourite" />
+        <item
+            android:id="@+id/nav_author"
+            android:icon="@drawable/ic_author_green_24dp"
+            android:title="Author List" />
+        <item
+            android:id="@+id/nav_slide"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Slide" />
+    </group>
+
+    <item android:title="Acknowledgement">
+        <menu>
+            <item
+                android:id="@+id/nav_ack"
+                android:icon="@drawable/ic_acknow_24dp"
+                android:title="credit" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_about_24dp"
+                android:title="about" />
+        </menu>
+    </item>
+
+</menu>

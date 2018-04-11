@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+
+    android:id="@+id/post_container"
+ >
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="10dp"
+                android:paddingRight="20dp"
+
+                android:layout_height="wrap_content"
+                android:id="@+id/toolbartitle"/>
+            </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <!--
+
+  <TextView
+
+      android:textColor="#5f5f5f"
+      android:layout_centerHorizontal="true"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/post_title"
+      android:textSize="25dp"
+
+      android:text=""/>
+
+
+  <TextView
+      android:text="author name"
+      android:gravity="right"
+      android:layout_below="@+id/post_title"
+      android:layout_alignParentRight="true"
+      android:layout_marginRight="20dp"
+      android:layout_width="wrap_content"
+      android:textSize="20dp"
+      android:layout_height="wrap_content"
+      android:id="@+id/post_author"/>
+  -->
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_marginTop="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:paddingLeft="10dp"
+            android:paddingTop="20dp"
+            android:textColor="#1f1f1f"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/post_title"
+            android:id="@+id/post_body"
+            android:textSize="20dp"
+            android:text="skdjfk\nerte \n ewefwefe\n grerre we\n ewwerwer\n fswewe\newrwerwerweadsfw\nerwedfwe\nwerwkdjfk\nerte \n ewefwefe\n grerre we\n ewwerwer\n fswewe\newrwerwerweadsfw\nerwedfwe\nwerwkdjfk\nerte \n ewefwefe\n grerre we\n ewwerwer\n fswewe\newrwerwerweadsfw\nerwedfwe\nwerwkdjfk\nerte \n ewefwefe\n grerre we\n ewwerwer\n fswewe\newrwerwerweadsfw\nerwedfwe\nwerwedfstrw\nefsfewwerqernsfrwerewrwen\nwerefdsfsdf\n eewfryet wer ewr\n ewrwesdfew\n      eweresdfd\ feewrwerfw \nlsjflskdjfklsjdfl\njsdlkfklwejwkjwe\n ekejlkewkrj \kldf  dfslkekl \n sjfkerkwe \n kerk3"
+            android:layout_height="wrap_content"
+            />
+
+
+
+    </android.support.v4.widget.NestedScrollView>
+
+
+</RelativeLayout>

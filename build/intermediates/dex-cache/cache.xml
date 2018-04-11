@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/ak/Desktop/dev/Recycler-View-Example-master/Jasmine/app/build/intermediates/exploded-aar/com.android.support/transition/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="/home/ak/Desktop/dev/Recycler-View-Example-master/Jasmine/app/build/intermediates/pre-dexed/debug/com.android.support-transition-25.3.1_f09c81cd50444c32a6662b2f7200d7c250f5fb3b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ak/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/home/ak/Desktop/dev/Recycler-View-Example-master/Jasmine/app/build/intermediates/pre-dexed/debug/support-annotations-25.3.1_5d0a834c8c78f5f736bedf801e405b0084b112be.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ak/Desktop/dev/Recycler-View-Example-master/Jasmine/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/home/ak/Desktop/dev/Recycler-View-Example-master/Jasmine/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.3.1_7ed1840b2541eb7a287c35bb6905a0f636449711.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ak/Desktop/dev/Recycler-View-Example-master/Jasmine/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="/home/ak/Desktop/dev/Recycler-View-Example-master/Jasmine/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.3.1_ef644c181593698b06308207696ca749006086a3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ak/Desktop/dev/Recycler-View-Example-master/Jasmine/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/ak/Desktop/dev/Recycler-View-Example-master/Jasmine/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.3.1_c7701f222bb4fa72f51749b6e7cda54428545f89.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ak/Desktop/dev/Recycler-View-Example-master/Jasmine/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/home/ak/Desktop/dev/Recycler-View-Example-master/Jasmine/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.3.1_dcd08639f31b15a24d06a6460e9b1b81da39c440.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ak/Desktop/dev/Recycler-View-Example-master/Jasmine/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/home/ak/Desktop/dev/Recycler-View-Example-master/Jasmine/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.3.1_9c108217b917f9d061861751f9a220bed6185b40.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ak/Desktop/dev/Recycler-View-Example-master/Jasmine/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="/home/ak/Desktop/dev/Recycler-View-Example-master/Jasmine/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.3.1_aee52ab0c5ae8cbc38ba38502c9d828bcb865d01.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ak/Desktop/dev/Recycler-View-Example-master/Jasmine/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/home/ak/Desktop/dev/Recycler-View-Example-master/Jasmine/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.3.1_2801f119f917bc67041831cb9e988cca28818b92.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ak/Desktop/dev/Recycler-View-Example-master/Jasmine/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/home/ak/Desktop/dev/Recycler-View-Example-master/Jasmine/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.3.1_d63993b52e4542dec509cd91dee47f19cc949627.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ak/Desktop/dev/Recycler-View-Example-master/Jasmine/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/home/ak/Desktop/dev/Recycler-View-Example-master/Jasmine/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.3.1_dea0b5027daa01fe1496e79c4884d754988f440b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ak/Desktop/dev/Recycler-View-Example-master/Jasmine/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/home/ak/Desktop/dev/Recycler-View-Example-master/Jasmine/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.3.1_5a4807312354a020106dd64b36a409140c990c1b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ak/Desktop/dev/Recycler-View-Example-master/Jasmine/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/home/ak/Desktop/dev/Recycler-View-Example-master/Jasmine/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.3.1_8d79b49aa9397babcb832157fa31bb19c4858c50.jar" />
+    </item>
+
+</items>

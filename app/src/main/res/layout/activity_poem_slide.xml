@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_poem_slide"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    tools:context="com.nutronex.antx.jasmine.PoemSlideActivity">
+
+    <!--android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:elevation="0dp"
+        android:background="@null"
+        android:id="@+id/slideappbar"
+        android:layout_height="wrap_content"-->
+
+    <!--/android.support.design.widget.AppBarLayout-->
+
+
+    <android.support.v4.view.ViewPager
+        android:fitsSystemWindows="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/post_viewpager"/>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:src="@drawable/ic_expand"
+        android:background="@color/colorPrimary"
+        android:layout_margin="@dimen/fab_margin"
+        />
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/bottomsheet"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/colorPrimary"
+        android:alpha="0.9"
+        android:clipToPadding="true"
+
+        app:layout_behavior="android.support.design.widget.BottomSheetBehavior">
+
+
+        <RelativeLayout
+            android:id="@+id/bsheet_header"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="30dp">
+            <TextView
+                android:textColor="#ffffff"
+                android:id="@+id/bsheet_title"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="This is bottom sheet"/>
+            <TextView
+                android:paddingTop="16dp"
+                android:textColor="#ffffff"
+                android:id="@+id/bsheet_author"
+                android:textSize="17dp"
+                android:layout_below="@+id/bsheet_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="This is bottom sheet"/>
+
+
+            <CheckBox
+                android:id="@+id/bsheet_fav"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:button="@null"
+                android:checked="true"
+                android:background="@drawable/favourtie_button_bg"/>
+
+
+        </RelativeLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+<android.support.design.widget.AppBarLayout
+    android:layout_width="match_parent"
+    android:background="@null"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:elevation="0dp"
+        android:background="#553bf544"
+        android:theme="@style/Toolbartheme"
+        app:layout_scrollFlags="scroll|enterAlways"
+        android:id="@+id/slidetoolbar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+</android.support.design.widget.AppBarLayout>
+</android.support.design.widget.CoordinatorLayout>

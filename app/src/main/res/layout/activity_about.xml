@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:background="#00aeff"
+        android:layout_height="wrap_content"
+        app:theme="@style/AppThemeToobar">
+        <!--
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+-->
+
+
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:fitsSystemWindows="true"
+            android:elevation="0dp"
+            android:background="@color/colorPrimary"
+            android:id="@+id/toolbar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+
+    </android.support.design.widget.AppBarLayout>
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <ImageView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/about_img"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/poemlogo"/>
+
+    <TextView
+        android:layout_below="@+id/about_img"
+        android:gravity="center"
+        android:id="@+id/about_text"
+        android:textSize="15dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_below="@+id/about_text"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:id="@+id/launch_author_website_btn"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:drawableLeft="@drawable/ic_web_launch"
+            android:background="@drawable/developer_web_btn"
+            android:textColor="#ffffff"
+            android:shadowRadius="0"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowColor="@null"
+            android:textAllCaps="false"
+            android:text="www.nutronex.github.io"/>
+    </RelativeLayout>
+</RelativeLayout>

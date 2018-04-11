@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:paddingLeft="15dp"
+    android:id="@+id/home_rv_container"
+    android:clickable="true"
+    android:focusable="true"
+
+    android:background="?attr/selectableItemBackground"
+    android:layout_margin="1dp"
+    android:layout_height="wrap_content"
+    >
+
+    <TextView
+
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/home_rview_id"/>
+
+
+    <TextView
+        android:textColor="@color/colorPrimary"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/home_rview_title"/>
+
+    <TextView
+        android:textSize="15dp"
+
+        android:paddingTop="10dp"
+        android:layout_below="@+id/home_rview_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/home_rview_author"/>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/poemlist_fav_indicator"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout>
+

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+
+    android:id="@+id/post_container"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="10dp">
+
+
+
+<android.support.v4.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:paddingTop="70dp"
+        android:paddingLeft="10dp"
+        android:textColor="#1f1f1f"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/post_title"
+        android:id="@+id/post_body"
+
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:textSize="18dp"
+        android:text="skdjfk\nerte \n ewefwefe\n grerre we\n ewwerwer\n fswewe\newrwerwerweadsfw\nerwedfwe\nwerwkdjfk\nerte \n ewefwefe\n grerre we\n ewwerwer\n fswewe\newrwerwerweadsfw\nerwedfwe\nwerwkdjfk\nerte \n ewefwefe\n grerre we\n ewwerwer\n fswewe\newrwerwerweadsfw\nerwedfwe\nwerwkdjfk\nerte \n ewefwefe\n grerre we\n ewwerwer\n fswewe\newrwerwerweadsfw\nerwedfwe\nwerwedfstrw\nefsfewwerqernsfrwerewrwen\nwerefdsfsdf\n eewfryet wer ewr\n ewrwesdfew\n      eweresdfd\ feewrwerfw \nlsjflskdjfklsjdfl\njsdlkfklwejwkjwe\n ekejlkewkrj \kldf  dfslkekl \n sjfkerkwe \n kerk3"
+        android:layout_height="wrap_content"
+        />
+
+
+
+    </android.support.v4.widget.NestedScrollView>
+
+
+</RelativeLayout>
